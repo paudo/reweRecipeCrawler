@@ -21,9 +21,9 @@
   },
   "homepage": "https://github.com/LarsBremen/template_node_ts#readme",
   "dependencies": {
+    "@types/puppeteer": "^3.0.0",
     "events": "^1.1.1",
-    "headless-chrome-crawler": "^1.8.0",
-    "puppeteer": "^0.10.2",
+    "puppeteer": "^3.3.0",
     "typescript": "^3.8.3"
   },
   "devDependencies": {
@@ -36,7 +36,6 @@
     "eslint": "^7.0.0",
     "eslint-config-google": "^0.14.0",
     "mocha": "^7.1.2",
-    "puppeteer-tsd": "0.0.2",
     "ts-node": "^8.10.1"
   }
 }
