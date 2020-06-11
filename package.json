@@ -1,11 +1,11 @@
 {
-  "name": "template_node_ts",
+  "name": "rewe-recipe-crawler",
   "version": "1.0.0",
-  "description": "",
+  "description": "Create a screenshot of web page in PDF",
   "main": "main.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha --require ts-node/register ./spec/*.spec.ts",
-    "start": "node ./out/main.js",
+    "start": "node ./out/src/main.js",
     "build": "cd src; tsc; cd ..",
     "serve": "ts-node src/main.ts",
     "lint": "eslint"
@@ -14,25 +14,29 @@
     "type": "git",
     "url": "git+https://github.com/LarsBremen/template_node_ts.git"
   },
-  "author": "",
+  "author": "Dominic Pauli",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/LarsBremen/template_node_ts/issues"
   },
   "homepage": "https://github.com/LarsBremen/template_node_ts#readme",
   "dependencies": {
+    "events": "^1.1.1",
+    "headless-chrome-crawler": "^1.8.0",
+    "puppeteer": "^0.10.2",
     "typescript": "^3.8.3"
   },
   "devDependencies": {
     "@types/chai": "^4.2.10",
     "@types/mocha": "^7.0.2",
-    "@types/node": "^13.13.5",
+    "@types/node": "^13.13.12",
     "@typescript-eslint/eslint-plugin": "^2.33.0",
     "@typescript-eslint/parser": "^2.33.0",
     "chai": "^4.2.0",
     "eslint": "^7.0.0",
     "eslint-config-google": "^0.14.0",
     "mocha": "^7.1.2",
+    "puppeteer-tsd": "0.0.2",
     "ts-node": "^8.10.1"
   }
 }
