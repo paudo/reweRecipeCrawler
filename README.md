@@ -1,4 +1,7 @@
-# template_node_ts
+# Rewe Recipe Crawler
+Webcrawler to get Recipes from Rewe as HTML and PDF Document
+
+# Derived from template_node_ts
 Template for node projects including configuration for Typescript and eslint 
 as well as mocha and chai for testing.
 
