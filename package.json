@@ -5,26 +5,28 @@
   "main": "main.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha --require ts-node/register ./spec/*.spec.ts",
-    "start": "node ./out/src/main.js",
+    "start": "node ./out/main.js",
     "build": "cd src; tsc; cd ..",
     "serve": "ts-node src/main.ts",
     "lint": "eslint"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LarsBremen/template_node_ts.git"
+    "url": "git+https://github.com/paudo/reweRecipeCrawler.git"
   },
   "author": "Dominic Pauli",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/LarsBremen/template_node_ts/issues"
+    "url": "https://github.com/paudo/reweRecipeCrawler/issues"
   },
-  "homepage": "https://github.com/LarsBremen/template_node_ts#readme",
+  "homepage": "https://github.com/paudo/reweRecipeCrawler#readme",
   "dependencies": {
     "@types/puppeteer": "^3.0.0",
+    "@types/user-agents": "^1.0.0",
     "events": "^1.1.1",
     "puppeteer": "^3.3.0",
-    "typescript": "^3.8.3"
+    "typescript": "^3.8.3",
+    "user-agents": "^1.0.559"
   },
   "devDependencies": {
     "@types/chai": "^4.2.10",
